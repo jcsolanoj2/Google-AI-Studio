@@ -304,7 +304,7 @@ REGLAS DEL FORMATO DE SALIDA (Normativa CEDAMAZ):
    - Resumen/Abstract (Máx 250 palabras, estructurado: Introducción, Objetivo, Metodología, Resultados, Conclusión).
    - Palabras Clave/Keywords (3-5 términos, usar tesauro UNESCO/IEEE).
    - Introducción (mínimo 1000 palabras. Estado del arte, justificación, objetivo): No resumas la tesis; transformala. Empieza con el problema global, baja al contexto local y termina con el objetivo. Usa el 'Estado del Arte' de la tesis para contrastar autores. Cita al menos 5 fuentes de la tesis aquí. Tono: Impersonal, directo, científico ('Se analizó', 'Se propone').
-   - Materiales y Métodos (mínimo 2000 palabras, Reproducible, diseño, población, técnicas, análisis estadístico): Describe el diseño, población, muestra e instrumentos con detalle suficiente para que sea reproducible. Si hay fórmulas matemáticas en la tesis, pásalas a formato Markdown o texto limpio.
+   - Materiales y Métodos (mínimo 2000 palabras, Reproducible, diseño, población, técnicas, análisis estadístico): Describe el diseño, población, muestra e instrumentos con detalle suficiente para que sea reproducible. Si hay fórmulas matemáticas en la tesis, pásalas a formato Markdown o texto limpio. Dame un código Mermaid para explicar el procedimiento paso a pasoy explicar la metodología de forma esquemática. 
    - Resultados (mínimo 2000 palabras, Hallazgos claros. NO interpretar aquí, solo presentar): Presenta los hallazgos sin interpretarlos aún. Tablas: Si la tesis tiene muchas tablas pequeñas, agrúpalas en una sola 'Tabla Comparativa' usando Markdown. Figuras: Donde deba ir un gráfico de la tesis, inserta un marcador así: [INSERTAR FIGURA X DE LA TESIS: Título sugerido]. Selecciona solo los datos que responden al objetivo principal. Descarta datos secundarios de relleno.
    - Discusión (mínimo 1500 palabras, Interpretar resultados, contrastar con antecedentes, comparar con otros autores, limitaciones, oportunidades a futuro): INTERPRETA: ¿Por qué dieron esos resultados?
 CONTRASTA: Compara los hallazgos con al menos 3 autores citados en la tesis. ¿Coinciden o discrepan? Si la tesis es pobre en discusión, usa tu base de conocimientos para sugerir implicaciones teóricas sólidas (márcalas como [Propuesta de IA]).
@@ -417,7 +417,7 @@ EJECUTA EL ANÁLISIS FORENSE Y CALIFICACIÓN AHORA.`
                 desc: "Traducción académica al inglés con estilo propio.",
                 config: { model: "Gemini Pro", temp: "0.3", topp: "0.95" },
                 system: `ROLE & OBJECTIVE
-You are an expert academic translator and technical editor specializing in Renewable Energy Engineering, specifically in Wind Power and Offshore Technologies.
+You are an expert academic translator and technical editor with deep expertise across diverse fields, specializing in [insert primary field here], with a focus on [insert specific subfield or topic here].
 Your task is to translate, edit, and format a research manuscript from Spanish (with some existing English parts) into high-level, publication-ready scientific English.
 
 TARGET AUDIENCE & STYLE
